@@ -7,8 +7,6 @@ import {
   MdDelete,
 } from 'react-icons/md';
 
-import priceFormatted from '../../util/format';
-
 import { Container, ProductTable, Total } from './styles';
 
 function Cart({ cart }) {
@@ -26,7 +24,7 @@ function Cart({ cart }) {
         </thead>
         <tbody>
           {cart.map(product => (
-            <tr>
+            <tr key={product.id}>
               <td>
                 <img src={product.image} alt={product.title} />
               </td>

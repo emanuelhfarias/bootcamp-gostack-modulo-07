@@ -23,3 +23,13 @@ yarn
 json-server server.json -p 3333 --watch # mock backend
 yarn start
 ```
+
+### React Hooks
+Branch com a mesma aplicação modificada para utilizar __function components__ e __React Hooks__.  
+Ver [branch](https://github.com/emanuelhfarias/bootcamp-gostack-modulo-07/tree/react-hooks)  
+
+Features utilizadas:
+* useState (substitui setState)
+* useEffect (substitui componentDidMount)
+* useSelector (substitui mapStateToProps)
+* useDispatch (substitui mapDispatchToProps)
